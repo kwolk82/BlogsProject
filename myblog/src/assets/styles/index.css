@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 기본 폰트 설정 */
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+/* 레이아웃을 깨는 중앙정렬/배경색 강제는 제거 */
+html, body, #root { height: 100%; }
+body { margin: 0; }
+
+/* 링크 기본 */
+a { text-decoration: none; }
+
+/* 미디어쿼리로 색 강제하지 않음: Tailwind의 dark: 사용 권장 */
